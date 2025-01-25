@@ -54,7 +54,7 @@ foreach ($result as $record) {
       <td>
         <a href='txt_image_edit.php?id={$record["id"]}'>edit</a><BR>
         <a href='txt_image_delete.php?id={$record["id"]}'>delete</a><BR>
-        <a href='like_create.php?user_id={$user_id}&todo_id={$record["id"]}'>like{$record["like_count"]}</a>
+        <a href='like_create.php?user_id={$user_id}&todo_id={$record["id"]}'>check{$record["like_count"]}</a>
       </td>
     </tr>
 
